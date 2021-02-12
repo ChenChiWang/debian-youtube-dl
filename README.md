@@ -1,6 +1,10 @@
 # debian-youtube-dl
 Dockerfile for debian-youtube-dl
 
+###
+
+`docker build -t [My_Container] .` 
+
 ### Docker Run
 `docker run -i -t -v [My_Download_Dir]:/Downloads chenchiwang/debian-youtube-dl /bin/bash`
 
